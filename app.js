@@ -1,6 +1,8 @@
 const controller = require('./controller');
 const express = require('express');
 
+process.env.TZ = 'America/Chicago';
+
 controller.start();
 const app = express();
 
