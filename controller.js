@@ -33,7 +33,6 @@ function status() {
   return {
     consecutiveFailedRequests,
     consecutiveGoodRequests,
-    lastChecked: lastChecked.toString(),
     lastFailure: lastFailure.toString(),
     lastSuccess: lastSuccess.toString(),
   };
