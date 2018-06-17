@@ -10,7 +10,10 @@
   "author": "Thomas Sowders",
   "license": "UNLICENSED",
   "dependencies": {
-    "eslint-config-airbnb": "^16.1.0",
+    "async": "^2.6.1",
+    "eslint": "^4.19.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
     "nodemailer": "^4.6.7",
     "nodemon": "^1.17.5",
     "request": "^2.87.0"
